@@ -19,4 +19,5 @@ COPY --from=build /app/out .
 ENV ASPNETCORE_URLS=http://+:10000
 EXPOSE 10000
 
-ENTRYPOINT ["dotnet", "miprimerproyecto2.dll"]
+# El nombre debe coincidir con tu .csproj
+ENTRYPOINT ["dotnet", "backend.dll"]
