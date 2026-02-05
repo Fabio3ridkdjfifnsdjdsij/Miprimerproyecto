@@ -1,12 +1,20 @@
-function ServiceCard({ servicio, onEdit }) { // <--- Agregamos onEdit aquí
+import { Link } from "react-router-dom";
+
+function ServiceCard({ servicio, onEdit }) {
   return (
-    <div className="service-item"> {/* Nota: En React usa className en vez de class */}
+    <div style={{ border: "1px solid #ccc", padding: 10, margin: "10px 0" }}>
       <h3>{servicio.nombre}</h3>
       <p>{servicio.descripcion}</p>
 
-      {/* Ahora usamos la función que viene por props */}
-      <button onClick={() => onEdit(servicio)}>Editar</button>
+      <Link to={`/servicios/${servicio.id}`}>Ver detalle</Link>
+
+      {onEdit && (
+        <button onClick={() => onEdit(servicio)} style={{ marginLeft: 10 }}>
+          Editar
+        </button>
+      )}
     </div>
   );
 }
+
 export default ServiceCard;

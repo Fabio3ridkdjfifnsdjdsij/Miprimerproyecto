@@ -31,3 +31,4 @@ D:\CLASES\PORTALES WEB 2\PRIMER PARCIAL\miprimerproyecto2\backend\obj\Debug\net1
 D:\CLASES\PORTALES WEB 2\PRIMER PARCIAL\miprimerproyecto2\backend\obj\Debug\net10.0\backend.pdb
 D:\CLASES\PORTALES WEB 2\PRIMER PARCIAL\miprimerproyecto2\backend\obj\Debug\net10.0\backend.genruntimeconfig.cache
 D:\CLASES\PORTALES WEB 2\PRIMER PARCIAL\miprimerproyecto2\backend\obj\Debug\net10.0\ref\backend.dll
+D:\CLASES\PORTALES WEB 2\PRIMER PARCIAL\miprimerproyecto2\backend\obj\Debug\net10.0\backend.sourcelink.json
